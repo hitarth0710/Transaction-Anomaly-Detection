@@ -22,7 +22,7 @@ pip install -r requirements.txt
 git clone https://github.com/yourusername/ML-Project.git
 cd ML-Project
 pip install -r requirements.txt
-python src/generate_sample_data.py
+python src/generate_sample_data.py //(optional)
 python detection.py
 ```
 
