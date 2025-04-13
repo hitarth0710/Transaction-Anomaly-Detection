@@ -14,9 +14,17 @@ A machine learning application that detects anomalous financial transactions usi
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10(works best on this)
 - Required packages:
 
+### Setting Up a Virtual Environment
+
+To ensure compatibility and isolate dependencies, it's recommended to set up a Python 3.10 virtual environment. Use the following steps:
+
+```bash
+py -3.10 -m venv .venv
+```
+After making virtual environment, continue with installation process 
 ```bash
 pip install -r requirements.txt
 git clone https://github.com/yourusername/ML-Project.git
